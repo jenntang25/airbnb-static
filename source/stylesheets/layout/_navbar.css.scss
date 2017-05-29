@@ -1,7 +1,7 @@
 /* Main class */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+  background: $white;
   transition: all 0.3s ease;
   display: flex;
   height: 70px;
@@ -58,11 +58,12 @@
   color: white;
   font-size: 14px;
   border: 2px solid #D23333;
-}
-.navbar-wagon-button:hover {
-  color: white;
-  background: #D23333;
-  border-color: #ac2626;
+
+  &:hover {
+    color: white;
+    background: #D23333;
+    border-color: #ac2626;
+  }
 }
 
 /* Navbar search form */
@@ -75,7 +76,7 @@
 }
 .navbar-wagon-search-btn {
   line-height: 40px;
-  color: #E6E6E6;
+  color: $red;
   border: none;
   background: transparent;
   position: absolute;
@@ -89,7 +90,7 @@
   line-height: 40px;
   font-weight: lighter;
   color: #666666;
-  border: 1px solid #E6E6E6;
+  border: 1px solid $red;
   border-radius: 5px;
   padding: 0 10px;
   font-size: 14px;
@@ -104,18 +105,20 @@
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
-}
-.navbar-wagon-dropdown-menu li > a {
-  transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
-  padding: 10px 20px;
-}
-.navbar-wagon-dropdown-menu li > a:hover {
-  background: transparent !important;
-  color: black !important;
+
+  li > a {
+    transition: color 0.3s ease;
+    font-weight: lighter !important;
+    color: #999999 !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    padding: 10px 20px;
+
+    &:hover {
+      background: transparent !important;
+      color: black !important;
+    }
+  }
 }
 .navbar-wagon-dropdown-menu:before {
   content: ' ';
