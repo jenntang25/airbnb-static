@@ -1,0 +1,55 @@
+# data/flats.yml
+felipe:
+  owner_name: Felipe Saunier
+  picture: images/card-brussels.jpeg
+  owner_picture: images/felipe.jpeg
+  name: Felipe's home
+  description: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  accommodates: 2
+  room type: Entire home/apt
+  bathrooms: 1
+  bedrooms: 1
+  about: About this flat
+  place: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+
+
+
+
+joe:
+  owner_name: Joe Paillard
+  picture: images/card-london.jpeg
+  owner_picture: images/joe.jpeg
+  name: Joe's home
+  description: Nice place in London
+  city: London, UK
+  wifi: false
+  accommodates: 5
+  room type: Entire home/apt
+  bathrooms: 2
+  bedrooms: 2
+  about: About this flat
+  place: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+
+
+
+
+jenn:
+  owner_name: Jenn Piccadilly
+  picture: images/card-paris.jpg
+  owner_picture: images/jenn.jpeg
+  name: Jenn's home
+  description: Nice flat in Piccadilly
+  city:  Barcelona, Spain
+  wifi: true
+  accommodates: 3
+  room type: Entire home/apt
+  bathrooms: 3
+  bedrooms: 1
+  about: About this flat
+  place: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+
+
+
+
